@@ -1,0 +1,936 @@
+@font-face {
+    font-family: 'Cal Sans';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/CalSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/CalSans-SemiBold.woff') format('woff'),
+        url('../fonts/CalSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header {
+    position: relative;
+    border: 2px dashed #121212;
+    height: 740px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header__top {
+    display: flex;
+}
+
+.header__logo {
+    gap: 12px;
+    display: flex;
+}
+
+.list__link {
+    display: flex;
+    gap: 56px;
+}
+
+.img__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.list__link a {
+    position: relative;
+    gap: 56px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+
+    color: rgba(18, 18, 18, 0.4);
+
+}
+
+.left__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+
+
+    color: #121212;
+}
+
+.nav__list_link {
+    margin-left: 50px;
+}
+
+.header__top {
+    padding-top: 63px;
+}
+
+.link a:hover::after {
+    content: '';
+    background-color: darkblue;
+    display: flex;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    transition: all 1s ease;
+
+
+
+}
+
+.header__logo:hover {
+    transition: all 1s ease;
+    transform: scale(1.2);
+}
+
+.header__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+
+    color: #121212;
+}
+
+.header__title2 {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+
+    color: #121212;
+}
+
+.header__title2::before {
+    content: ' Guitars ';
+    color: #FF6428;
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+
+}
+
+.header__content_litle-button {
+    margin-top: 144px;
+}
+
+.header__subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 400px;
+    color: #666666;
+    margin-top: 16px;
+}
+
+.header__button_link a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    background: #FF6428;
+    border-radius: 40px;
+    padding: 18px 48px;
+    color: #FFFFFF;
+
+
+
+}
+
+.header__button_link {
+    margin-top: 34px;
+}
+
+.header__button_link a:hover {
+    color: blue;
+}
+
+.header__button_link:active {
+    transition: all 4s ease;
+    transform: scale(0.5);
+}
+
+.store__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #121212;
+
+}
+
+.store__title::after {
+    content: ' Store';
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #FF6428;
+}
+
+.store__subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 86px;
+
+    letter-spacing: 0.08em;
+
+    color: #121212;
+
+}
+
+.store__image-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 40px;
+
+
+
+    color: #121212;
+
+}
+
+.img__subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 7px;
+
+
+    color: #666666;
+
+}
+
+.store__subtitle {
+    margin-top: 96px;
+}
+
+.store__title_img-subtitle {
+    margin-top: 32px;
+}
+
+.store__subtitle2 {
+    margin-top: 96px;
+}
+
+.store__image-title2 {
+    margin-top: 32px;
+}
+
+.choose__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    margin-top: 180px;
+    text-align: center;
+
+
+    color: #000000;
+
+}
+
+.choose__title::after {
+    content: ' Categories';
+
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #FF6428;
+}
+
+.choose__img {
+    max-width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.choose__title2 {
+    margin-top: 220px;
+}
+
+.choose__title2::after {
+    content: ' Best Brands';
+}
+
+.best__img_title-subtitle {
+    max-width: 1021.16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 75px;
+    gap: 160px;
+}
+
+.best__img_title-subtitle2 {
+    margin-top: 116.82px;
+}
+
+
+
+.why__img_title-subtitle {
+    margin-top: 180px;
+    background-color: #121212;
+    ;
+}
+
+.why__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    padding-top: 93px;
+    text-align: center;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.why__title::after {
+    content: 'Rhythm?';
+    color: #FF6428;
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+
+}
+
+.why__img {
+    background: #262626;
+    border-radius: 20px;
+    padding: 20px 20px;
+
+}
+
+.image__title {
+    width: 230px;
+    text-align: center;
+}
+
+.why__title2 {
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.why__subtitle {
+    margin-top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #666666;
+
+}
+
+.why__image_bag {
+
+    padding-top: 75px;
+    margin: 0 auto;
+    width: 1092px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+.say__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+
+
+
+    color: #000000;
+
+}
+
+.say__title::after {
+    content: ' customer’s ';
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+
+
+
+    color: #FF6428;
+
+}
+
+.say__title2 {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+
+
+
+    color: #000000;
+}
+
+.span__title {
+    padding-top: 238px;
+    text-align: center;
+}
+
+.say__image {
+    position: relative;
+    width: 284.72px;
+    height: 257.89px;
+
+
+    background: #FF6428;
+    border-radius: 40px 0px 400px 400px;
+    transform: rotate(-7.72deg);
+}
+
+.say__img_title-content {
+    margin-top: 147px;
+}
+
+.say__img {
+
+    left: 81px;
+    bottom: -25px;
+    position: absolute;
+}
+
+.say__title_content {
+    width: 524px;
+}
+
+.bag__orange {
+    width: 12px;
+    height: 24px;
+
+    background: #FF6428;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+}
+
+.bag__bag {
+
+    width: 10px;
+    height: 16px;
+    gap: 12px;
+
+
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.say__content {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+
+
+    color: #666666;
+
+}
+
+.say__title3 {
+    margin-top: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+
+
+    color: #000000;
+}
+
+.subtitle__bag {
+    margin-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+
+    letter-spacing: 0.08em;
+
+    color: #868686;
+}
+
+.say__img_title-content {
+    display: flex;
+    justify-content: center;
+}
+
+.say__subtitle_bag {
+    display: flex;
+}
+
+.say__bag {
+    height: 8px;
+    margin-left: 172.84px;
+    display: flex;
+    margin-top: 9px;
+}
+
+.say__title_content {
+    margin-left: calc(86px + 146.16px);
+}
+
+.bag__bag_bag {
+    gap: 12px;
+    display: flex;
+    margin-left: 17px;
+}
+
+.container2 {
+    max-width: 1202px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.browse__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+
+
+
+    color: #000000;
+}
+
+.browse__title::after {
+
+    content: ' favorite guitars ';
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FF6428;
+}
+
+.browse__title2 {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+
+
+
+    color: #000000;
+}
+
+.browse__title_img {
+    width: 484px;
+}
+
+.browse__img {
+    margin-top: 60px;
+}
+
+.browse__img_title-subtitle {
+    padding-top: 356px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1 {
+    margin-left: 25.65px;
+}
+
+.bag__pione {
+    position: relative;
+    width: 568px;
+    height: 354px;
+    border-radius: 53%;
+    background: #FF6428;
+}
+
+.pione1 {
+    top: -163px;
+    left: -25px;
+    position: absolute;
+}
+
+.pione2 {
+    top: -99px;
+    right: -21px;
+    position: absolute;
+}
+
+.footer {
+
+    margin-top: 205px;
+    background-color: #EEEEEE;
+}
+
+.footer__img_title-subtitle {
+    display: flex;
+}
+
+.footer__logo_title {
+    display: flex;
+}
+
+.footep__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 24px;
+
+    color: #121212;
+}
+
+.hry__footer_img1 {
+
+    margin-top: 28px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.img__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+
+    color: #666666;
+
+}
+
+.footer__container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.footer__bag_img-title {
+
+
+    margin-top: 205px;
+}
+
+.gh {
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+.footer__bag_img-title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.logo__title_footer {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+
+    margin-left: 24px;
+
+    color: #121212;
+
+}
+
+.footer__span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-left: 20px;
+
+    color: #666666;
+}
+
+.footer__img_span {
+    margin-top: 28px;
+}
+
+.title__footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-transform: uppercase;
+
+    color: #121212;
+
+}
+
+.subtitle__footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: rgba(18, 18, 18, 0.6);
+}
+
+.footer__subtitle_title2 {
+    margin-left: 10px;
+}
+
+.footer__subtitle_title1 {
+    margin-left: -50px;
+}
+
+.footer_footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    margin-top: 80px;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.6);
+    padding-bottom: 43px;
+
+}
+
+@media(max-width: 1200px) {
+    .list__link {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 28px;
+    }
+
+    .header__content_litle-button {
+        margin-top: 550px;
+
+        padding-left: 50px;
+
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title2 {
+        text-align: center;
+    }
+
+    .header__subtitle {
+        margin-left: 180px;
+        width: 298px;
+    }
+
+    .header__button_link {
+        text-align: center;
+    }
+
+    .bt {
+        margin-top: 490px;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .header__nav_list-link {
+        z-index: 2;
+    }
+
+    .list__link a {
+        color: darkred;
+    }
+
+    .header__logo {
+        z-index: 2;
+    }
+
+    .img__right {
+        width: 900px;
+    }
+
+    .header__content_litle-button {
+        margin-top: 750px;
+
+        padding-left: 50px;
+
+    }
+
+    .choose__img {
+        gap: 20px;
+    }
+
+    .best__img_title-subtitle {
+        gap: 20px;
+    }
+
+    .why__image_bag {
+        gap: 20px;
+        width: 900px;
+    }
+
+    .say__img {
+        width: 450px;
+        height: 315px;
+    }
+
+    .footer__bag_img-title {
+        width: 700px;
+    }
+
+    .gh {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .choose__img {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .best__img_title-subtitle {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .why__image_bag {
+        gap: 20px;
+        width: 700px;
+    }
+
+    .say__img {
+        width: 420px;
+        height: 326px;
+
+    }
+
+    .ft {
+        width: 150px;
+    }
+
+    .say__img_title-content {
+        padding: 0 20px;
+    }
+
+    .say__content {
+        width: 260px;
+        margin-left: 30px;
+    }
+
+    .df {
+        width: 800px;
+    }
+
+    .gh {
+        padding: 0;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .df {
+        width: 720px;
+    }
+
+    .footer__container {
+        padding: 0;
+    }
+}
+
+@media(max-width: 906px) {
+
+    .image1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
